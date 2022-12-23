@@ -10,9 +10,9 @@ public class ToTable {
         this.y = y;
     }
 
-    public int[][] resize(){
+    public int[][] resize() {
         int counter = 0;
-        int [][] arr2 = new int[x][y];
+        int[][] arr2 = new int[x][y];
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
                 arr2[i][j] = data[counter++];
@@ -20,5 +20,8 @@ public class ToTable {
         }
         return arr2;
     }
+
+    new ToLine()
+//commit2
 
 }
